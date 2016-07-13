@@ -1,0 +1,54 @@
+/** {
+	background-color: #C3CAD1;
+} */
+
+.top-navigation { 
+	background: #FFFFFF;
+	position: fixed;
+	width: 100%;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+li {
+	display: inline-block;
+	color: RGBA(131,137,148,1);
+	padding: 1em;
+}
+
+.navbar {
+	float: right;
+}
+
+.content {
+	width: 50em;
+	margin: 0 auto;
+}
+
+.top-navigation img.logo {
+	width:30px;
+	margin:10px 0;
+} 
+
+.frontPage {
+	background-image:url("../first-background.jpg");
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:45em;
+}
+
+
+
+/*.navbar {
+	border: 2px black solid;
+}*/
+
+#firstLink {
+	color:#4c5058;
+}
+
