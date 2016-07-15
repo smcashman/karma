@@ -43,7 +43,7 @@ li {
 }
 
 
-.top-navigation img.logo {
+#logo {
 	margin:15px 0 0 120px;
 
 } 
@@ -89,7 +89,7 @@ button:hover {
     cursor: pointer;
 }
 
-h1{
+#intro{
 	padding-top: 17.5rem;
     font-size: 3.125rem;
     margin-bottom: 0px;
@@ -101,6 +101,24 @@ h1, h3 {
 
 .content {
 	margin: 0 auto;
+}
+
+.cases {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	color:#4c5058;
+}
+
+footer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.cases .devices {
+	width:33.3333333%;
+    display: inline-block;
+    float: left;
 }
 
 
