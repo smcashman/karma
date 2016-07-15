@@ -18,12 +18,11 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	max-height:10em;
+	height:4.5em;
 }
 
 .top-navigation > .content {
     width: 970px;
-    height: 50px;
  }
 
 li {
@@ -49,11 +48,12 @@ li {
 } 
 
 .frontPage {
-	background-image:url("../first-background.jpg");
-	background-position:0 bottom fixed;
+	background-image:url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+	background-position:center bottom;
 	background-repeat:no-repeat;
 	background-size:cover;
-	height:45.938rem;;
+	height:45.938rem;
+	overflow: auto;
 	text-align:center;
 	color:#FFFFFF;
 	margin: auto 0;
@@ -73,7 +73,7 @@ li:hover{
 button {
 	border-radius: 4px;
 	background-color:#f15a29;
-	border-color: #f15a29;
+	border: 1px solid #f15a29;
 	width: 9.688rem;
 	padding: 1rem 1.5rem;
 	color: #FFFFFF;
@@ -108,17 +108,47 @@ h1, h3 {
 	margin: 0 auto;
 	background-color: #FFFFFF;
 	color:#4c5058;
-}
-
-footer {
-	text-align: center;
-	margin: 0 auto;
+	max-width:850px;
+	width:100%;
 }
 
 .cases .devices {
 	width:33.3333333%;
     display: inline-block;
     float: left;
+    margin: -5;
+    border-bottom:1px solid #CCCCCC;
+    padding-bottom:5em;
+}
+
+footer {
+	text-align: center;
+	margin: 0 auto;
+	width:100%;
+	clear:both;
+	padding-top:1em;
+	font:10px;
+	color:black;
+	background-color:#FFFFFF;
+	font-weight:300;
+}
+
+footer >h3 {
+	color:black;
+	font:10px;
+	font-weight:300;
+	text-align:center;
+}
+
+footer > p{
+	margin-left:0;
+}
+
+.social{
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	list-style:none;
 }
 
 
