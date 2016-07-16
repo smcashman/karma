@@ -37,7 +37,7 @@ li {
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
-	webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
 	padding-right: 4em;
 }
 
@@ -126,7 +126,7 @@ footer {
 	margin: 0 auto;
 	width:100%;
 	clear:both;
-	padding-top:1em;
+	padding-top:.5em;
 	font:10px;
 	color:black;
 	background-color:#FFFFFF;
@@ -134,21 +134,60 @@ footer {
 }
 
 footer >h3 {
-	color:black;
-	font:10px;
-	font-weight:300;
+	color:#4c5058;
+	font-size:1em;
+	font-weight:500;
 	text-align:center;
+	webkit-font-smoothing: antialiased;
 }
 
 footer > p{
 	margin-left:0;
+	color:#838994;
+	font-size:.9em;
+	font-weight:300;
+	webkit-font-smoothing: antialiased;
 }
 
 .social{
 	display: inline-block;
 	text-align: center;
 	margin: 0 auto;
-	list-style:none;
+	padding-left:0;	
 }
 
+.twittercircle, .facebookcircle, .instacircle {
+	border: 1px solid #CCCCCC;
+	border-radius:50%;
+	height:2em;
+	width:2em;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+}
 
+.twittercircle {
+	color:#55acee;
+}
+
+.twittercirle:hover {
+	cursor: pointer;
+	color:#55acee;
+}
+
+.facebookcircle {
+	color:#4c66a4;
+}
+
+.facebookcirle:hover {
+	cursor:pointer;
+	color:#4c66a4;
+}
+
+.instacircle:hover{
+	cursor:pointer;
+	color:#3f729b;
+}
+
+.instacircle {
+	color:#3f729b;
+}
